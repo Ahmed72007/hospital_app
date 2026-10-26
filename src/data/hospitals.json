@@ -2,46 +2,65 @@
   {
     "id": "h1",
     "name": {
-      "en": "Sample City Public Hospital",
-      "ur": "سیمپل سٹی پبلک ہسپتال"
+      "en": "Jinnah Postgraduate Medical Centre (JPMC)",
+      "ur": "جناح پوسٹ گریجویٹ میڈیکل سینٹر"
     },
     "address": {
-      "en": "1 Demo Road, Sample City",
-      "ur": "1 ڈیمو روڈ، سیمپل سٹی"
+      "en": "Rafiqui Shaheed Road, Karachi-75510",
+      "ur": "رفیقی شہید روڈ، کراچی 75510"
     },
-    "lat": 24.8607,
-    "lng": 67.0011,
-    "phone": "021-0000-0100",
-    "emergencyPhone": "021-0000-0199"
+    "lat": 24.8619,
+    "lng": 67.0412,
+    "phone": "+92-21-99201300",
+    "emergencyPhone": "+92-21-99201300",
+    "dataNote": "TODO VERIFY: map coordinates and emergency direct line; use the verified public main line until confirmed."
   },
   {
     "id": "h2",
     "name": {
-      "en": "Sample District Hospital",
-      "ur": "سیمپل ڈسٹرکٹ ہسپتال"
+      "en": "Civil Hospital Karachi (Dr. Ruth K. M. Pfau)",
+      "ur": "سول ہسپتال کراچی"
     },
     "address": {
-      "en": "25 Example Street, Sample District",
-      "ur": "25 ایگزیمپل سٹریٹ، سیمپل ڈسٹرکٹ"
+      "en": "Mission Road, Nanakwara, Karachi",
+      "ur": "مشن روڈ، نانکواڑہ، کراچی"
     },
-    "lat": 24.9056,
-    "lng": 67.0822,
-    "phone": "021-0000-0200",
-    "emergencyPhone": "021-0000-0299"
+    "lat": 24.8612,
+    "lng": 67.0099,
+    "phone": "+92-21-99215740",
+    "emergencyPhone": "+92-21-99215740",
+    "dataNote": "TODO VERIFY: map coordinates and emergency direct line; use the verified public main line until confirmed."
   },
   {
     "id": "h3",
     "name": {
-      "en": "Sample Teaching Hospital",
-      "ur": "سیمپل ٹیچنگ ہسپتال"
+      "en": "Dow University Hospital (Ojha Campus)",
+      "ur": "ڈاؤ یونیورسٹی ہسپتال، اوجھا کیمپس"
     },
     "address": {
-      "en": "7 Test Avenue, Sample Town",
-      "ur": "7 ٹیسٹ ایوینیو، سیمپل ٹاؤن"
+      "en": "University Road, near SUPARCO Chowk, Karachi",
+      "ur": "یونیورسٹی روڈ، سپارکو چوک کے قریب، کراچی"
     },
-    "lat": 24.92,
-    "lng": 67.13,
-    "phone": "021-0000-0300",
-    "emergencyPhone": "021-0000-0399"
+    "lat": 24.9411,
+    "lng": 67.1354,
+    "phone": "+92-21-111362273",
+    "emergencyPhone": "+92-21-111362273",
+    "dataNote": "TODO VERIFY: map coordinates and emergency direct line; use the verified public main line until confirmed."
+  },
+  {
+    "id": "h4",
+    "name": {
+      "en": "Abbasi Shaheed Hospital",
+      "ur": "عباسی شہید ہسپتال"
+    },
+    "address": {
+      "en": "Block 3, Nazimabad, Karachi",
+      "ur": "بلاک 3، ناظم آباد، کراچی"
+    },
+    "lat": 24.9164,
+    "lng": 67.0347,
+    "phone": "+92-21-99260400",
+    "emergencyPhone": "+92-21-99260400",
+    "dataNote": "TODO VERIFY: map coordinates and emergency direct line; use the verified public main line until confirmed."
   }
 ]

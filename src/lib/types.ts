@@ -12,6 +12,7 @@ export interface Hospital {
   lng: number
   phone: string
   emergencyPhone: string
+  dataNote?: string
 }
 export interface Department {
   id: string

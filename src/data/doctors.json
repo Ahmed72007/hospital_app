@@ -780,5 +780,277 @@
       "en": "10 am to 2 pm",
       "ur": "صبح 10 سے دوپہر 2 بجے"
     }
+  },
+  {
+    "id": "h4-doc1",
+    "departmentId": "h4-d1",
+    "name": "Dr. Sample Name 1",
+    "specialty": {
+      "en": "Emergency physician",
+      "ur": "ایمرجنسی ڈاکٹر"
+    },
+    "days": {
+      "en": "Every day",
+      "ur": "روزانہ"
+    },
+    "timings": {
+      "en": "24 hours",
+      "ur": "24 گھنٹے"
+    }
+  },
+  {
+    "id": "h4-doc2",
+    "departmentId": "h4-d1",
+    "name": "Dr. Sample Name 2",
+    "specialty": {
+      "en": "Emergency physician",
+      "ur": "ایمرجنسی ڈاکٹر"
+    },
+    "days": {
+      "en": "Every day",
+      "ur": "روزانہ"
+    },
+    "timings": {
+      "en": "24 hours",
+      "ur": "24 گھنٹے"
+    }
+  },
+  {
+    "id": "h4-doc3",
+    "departmentId": "h4-d2",
+    "name": "Dr. Sample Name 3",
+    "specialty": {
+      "en": "Cardiologist",
+      "ur": "ماہرِ امراضِ قلب"
+    },
+    "days": {
+      "en": "Mon to Fri",
+      "ur": "پیر تا جمعہ"
+    },
+    "timings": {
+      "en": "9 am to 1 pm",
+      "ur": "صبح 9 سے دوپہر 1 بجے"
+    }
+  },
+  {
+    "id": "h4-doc4",
+    "departmentId": "h4-d2",
+    "name": "Dr. Sample Name 4",
+    "specialty": {
+      "en": "Cardiologist",
+      "ur": "ماہرِ امراضِ قلب"
+    },
+    "days": {
+      "en": "Tue, Thu, Sat",
+      "ur": "منگل، جمعرات، ہفتہ"
+    },
+    "timings": {
+      "en": "10 am to 2 pm",
+      "ur": "صبح 10 سے دوپہر 2 بجے"
+    }
+  },
+  {
+    "id": "h4-doc5",
+    "departmentId": "h4-d3",
+    "name": "Dr. Sample Name 5",
+    "specialty": {
+      "en": "Pediatrician",
+      "ur": "ماہرِ امراضِ اطفال"
+    },
+    "days": {
+      "en": "Tue, Thu, Sat",
+      "ur": "منگل، جمعرات، ہفتہ"
+    },
+    "timings": {
+      "en": "10 am to 2 pm",
+      "ur": "صبح 10 سے دوپہر 2 بجے"
+    }
+  },
+  {
+    "id": "h4-doc6",
+    "departmentId": "h4-d3",
+    "name": "Dr. Sample Name 6",
+    "specialty": {
+      "en": "Pediatrician",
+      "ur": "ماہرِ امراضِ اطفال"
+    },
+    "days": {
+      "en": "Mon, Wed, Fri",
+      "ur": "پیر، بدھ، جمعہ"
+    },
+    "timings": {
+      "en": "2 pm to 5 pm",
+      "ur": "دوپہر 2 سے شام 5 بجے"
+    }
+  },
+  {
+    "id": "h4-doc7",
+    "departmentId": "h4-d4",
+    "name": "Dr. Sample Name 7",
+    "specialty": {
+      "en": "Gynecologist",
+      "ur": "ماہرِ امراضِ نسواں"
+    },
+    "days": {
+      "en": "Mon, Wed, Fri",
+      "ur": "پیر، بدھ، جمعہ"
+    },
+    "timings": {
+      "en": "2 pm to 5 pm",
+      "ur": "دوپہر 2 سے شام 5 بجے"
+    }
+  },
+  {
+    "id": "h4-doc8",
+    "departmentId": "h4-d4",
+    "name": "Dr. Sample Name 8",
+    "specialty": {
+      "en": "Gynecologist",
+      "ur": "ماہرِ امراضِ نسواں"
+    },
+    "days": {
+      "en": "Mon to Fri",
+      "ur": "پیر تا جمعہ"
+    },
+    "timings": {
+      "en": "9 am to 1 pm",
+      "ur": "صبح 9 سے دوپہر 1 بجے"
+    }
+  },
+  {
+    "id": "h4-doc9",
+    "departmentId": "h4-d5",
+    "name": "Dr. Sample Name 9",
+    "specialty": {
+      "en": "Orthopedic surgeon",
+      "ur": "ماہرِ ہڈی و جوڑ"
+    },
+    "days": {
+      "en": "Mon to Fri",
+      "ur": "پیر تا جمعہ"
+    },
+    "timings": {
+      "en": "9 am to 1 pm",
+      "ur": "صبح 9 سے دوپہر 1 بجے"
+    }
+  },
+  {
+    "id": "h4-doc10",
+    "departmentId": "h4-d5",
+    "name": "Dr. Sample Name 10",
+    "specialty": {
+      "en": "Orthopedic surgeon",
+      "ur": "ماہرِ ہڈی و جوڑ"
+    },
+    "days": {
+      "en": "Tue, Thu, Sat",
+      "ur": "منگل، جمعرات، ہفتہ"
+    },
+    "timings": {
+      "en": "10 am to 2 pm",
+      "ur": "صبح 10 سے دوپہر 2 بجے"
+    }
+  },
+  {
+    "id": "h4-doc11",
+    "departmentId": "h4-d6",
+    "name": "Dr. Sample Name 11",
+    "specialty": {
+      "en": "General physician",
+      "ur": "جنرل فزیشن"
+    },
+    "days": {
+      "en": "Tue, Thu, Sat",
+      "ur": "منگل، جمعرات، ہفتہ"
+    },
+    "timings": {
+      "en": "10 am to 2 pm",
+      "ur": "صبح 10 سے دوپہر 2 بجے"
+    }
+  },
+  {
+    "id": "h4-doc12",
+    "departmentId": "h4-d6",
+    "name": "Dr. Sample Name 12",
+    "specialty": {
+      "en": "General physician",
+      "ur": "جنرل فزیشن"
+    },
+    "days": {
+      "en": "Mon, Wed, Fri",
+      "ur": "پیر، بدھ، جمعہ"
+    },
+    "timings": {
+      "en": "2 pm to 5 pm",
+      "ur": "دوپہر 2 سے شام 5 بجے"
+    }
+  },
+  {
+    "id": "h4-doc13",
+    "departmentId": "h4-d7",
+    "name": "Dr. Sample Name 13",
+    "specialty": {
+      "en": "Pharmacist",
+      "ur": "فارماسسٹ"
+    },
+    "days": {
+      "en": "Mon, Wed, Fri",
+      "ur": "پیر، بدھ، جمعہ"
+    },
+    "timings": {
+      "en": "2 pm to 5 pm",
+      "ur": "دوپہر 2 سے شام 5 بجے"
+    }
+  },
+  {
+    "id": "h4-doc14",
+    "departmentId": "h4-d7",
+    "name": "Dr. Sample Name 14",
+    "specialty": {
+      "en": "Pharmacist",
+      "ur": "فارماسسٹ"
+    },
+    "days": {
+      "en": "Mon to Fri",
+      "ur": "پیر تا جمعہ"
+    },
+    "timings": {
+      "en": "9 am to 1 pm",
+      "ur": "صبح 9 سے دوپہر 1 بجے"
+    }
+  },
+  {
+    "id": "h4-doc15",
+    "departmentId": "h4-d8",
+    "name": "Dr. Sample Name 15",
+    "specialty": {
+      "en": "Lab technologist",
+      "ur": "لیب ٹیکنالوجسٹ"
+    },
+    "days": {
+      "en": "Mon to Fri",
+      "ur": "پیر تا جمعہ"
+    },
+    "timings": {
+      "en": "9 am to 1 pm",
+      "ur": "صبح 9 سے دوپہر 1 بجے"
+    }
+  },
+  {
+    "id": "h4-doc16",
+    "departmentId": "h4-d8",
+    "name": "Dr. Sample Name 16",
+    "specialty": {
+      "en": "Lab technologist",
+      "ur": "لیب ٹیکنالوجسٹ"
+    },
+    "days": {
+      "en": "Tue, Thu, Sat",
+      "ur": "منگل، جمعرات، ہفتہ"
+    },
+    "timings": {
+      "en": "10 am to 2 pm",
+      "ur": "صبح 10 سے دوپہر 2 بجے"
+    }
   }
 ]

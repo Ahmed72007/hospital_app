@@ -1,55 +1,63 @@
 # Hospital Guide (prototype)
 
-> **This is a prototype. All hospitals, doctors, phone numbers and addresses are made-up demo data.**
-> The app only points to a department. It does not diagnose or give medical advice.
+Mobile first English and Urdu voice guide for visitors to public hospitals in Karachi. There is no login, backend, appointment booking, or stored patient data. The app only points to a department; it does not diagnose or provide medical advice.
 
-A mobile-first, installable (PWA) voice app. A visitor picks a language and a hospital, says (or types) the problem, and the app shows and reads out which department to go to, where it is, and how to get there, with phone number, doctors and tips.
+**Demo notice:** floor, wing, route, department phone, doctor and tip data are illustrative. All listed doctors are fictional sample names. Hospital names, main addresses and main phone numbers are listed from public sources. Coordinates are approximate and marked TODO VERIFY in `src/data/hospitals.json`; the emergency contact currently falls back to the hospital's public main number and should be verified before any real use. Do not treat this prototype as an operational hospital directory.
 
 ## Run locally
 
-```bash
+```sh
 npm install
-npm run dev        # http://localhost:5173
-npm run build      # type-check + production build into dist/
+npm run dev
+npm run build
 npm run preview
 ```
 
-The microphone only works on HTTPS or on `localhost`. To test on a phone, deploy (below) or use a tunnel.
-Target browser: Chrome on Android.
+Open `http://localhost:5173`. Microphone access requires HTTPS or localhost. Chrome on Android is the target browser. Speech recognition and Urdu text-to-speech depend on browser support and installed voices; the text input and picture department picker remain available if voice is missing. The service worker caches the app shell for repeat visits.
 
-## Deploy (free tier)
+## Deploy
 
-Vercel:
-```bash
-npm i -g vercel
-vercel --prod
-```
-Netlify:
-```bash
-npm i -g netlify-cli
+Netlify (configured by `netlify.toml`): install the CLI, authenticate, then run:
+
+```sh
+npm install --global netlify-cli
+netlify login
 netlify deploy --prod --build
 ```
-(`netlify.toml` is included: build `npm run build`, publish `dist`.)
+
+Or Vercel:
+
+```sh
+npm install --global vercel
+vercel login
+vercel --prod
+```
+
+Both provide HTTPS. Deploying needs an account and login in the CLI. Set the project root to this folder and the build output to `dist` if prompted.
+
+## Data sources and demo data
+
+- [JPMC official contact](https://www.jpmc.edu.pk/contact.php): Rafiqui Shaheed Road address and main phone.
+- [Civil Hospital Karachi official site](https://chk.gov.pk/contact.php): Mission Road address and public contact number.
+- [Dow University Hospital](https://www.duhs.edu.pk/events/comprehensive-and-specialized-healthcare-services/): Ojha Campus address and contact number.
+- [Commissioner Karachi health directory](https://commissionerkarachi.gos.pk/health): Abbasi Shaheed Hospital address and contact number.
+
+The four hospital records are in `src/data/hospitals.json`. Every department has a shared type in `src/data/types.json`; illustrative departments/routes are in `src/data/departments.json`, fictional doctors in `src/data/doctors.json`, and matching/tips in `src/data/symptoms.json` and `src/data/tips.json`.
 
 ## Add a hospital
-1. Add an entry to `src/data/hospitals.json` (copy an existing one, new `id`).
-2. Add its departments to `src/data/departments.json` with that `hospitalId`, a `typeId` from `src/data/types.json`, floor, wing, and directions in each language.
-3. Add doctors to `src/data/doctors.json` with the department's `id` as `departmentId`.
+
+1. Add its bilingual name/address, public phone, and verified map coordinates in `src/data/hospitals.json`. Keep a `TODO VERIFY` marker for anything still unverified.
+2. Copy 6–8 department examples in `src/data/departments.json`, update `hospitalId` and unique `id` values, and provide both English and Urdu text.
+3. Add fictional demo doctors to `src/data/doctors.json` using the new department IDs.
 
 ## Add a language
-1. Copy `src/i18n/en.json` to e.g. `sd.json` and translate every value.
-2. Add one line in `src/i18n/index.ts`: `sd: { label: 'سنڌي', dir: 'rtl', speech: 'sd-PK', strings: sd }`.
-3. Add that language's text to every `{ en, ur }` object in `src/data/*.json`, and its keywords in `symptoms.json`.
-Note: browser voice input/output for Sindhi, Pashto and Punjabi is limited or missing on many phones. The text box and the department picture grid still work.
 
-## How matching works (`src/lib/match.ts`)
-Lowercase and trim, then count keywords per department type (`symptoms.json`). Highest count wins; ties go to the more specific type (e.g. Pediatrics before General Medicine). Any critical word (chest pain, accident, سانس, حادثہ, ...) shows Emergency first. No match: spoken message, a picture grid of departments, and the hospital's main phone number.
+1. Copy `src/i18n/en.json` to a new JSON file and translate each UI label.
+2. Add its language label, text direction, and BCP-47 speech code in `src/i18n/index.ts`.
+3. Add the language to bilingual objects in the hospital and department data, plus `src/data/symptoms.json` and `src/data/tips.json`.
 
-## Choices made
-- Emoji are used as department icons (no image downloads, small bundle). One color per department type.
-- Urdu voice output depends on the phone: if no Urdu voice is installed, a Hindi voice is used as a fallback.
-- Doctor `days` and `timings` are `{ en, ur }` objects (not plain strings) so they display in Urdu.
-- The red Emergency button appears on every screen after a hospital is chosen (it needs a hospital to know which number to call).
-- "Reach the hospital" opens Google Maps directions, which Android hands to the maps app.
-- A tiny service worker caches pages so the app installs and reopens offline.
-- Sample coordinates are fake points near Karachi; "nearest" picks the closest of the three.
+Browser voice support for Sindhi, Pashto and Punjabi is limited and depends on the device. Keep the text and picture picker available.
+
+## Matching and UX choices
+
+Input is normalized and matched against `symptoms.json`; the highest keyword score wins, with pediatric routing preferred when the patient is a child. Critical terms route to Emergency. A no-match result opens the department picture grid. Speech highlights words from Web Speech boundary events and estimates progress with a timer when a browser omits those events. Emoji pictograms keep the prototype small; each department type also has a shared color. “Nearest” uses the browser location and approximate hospital coordinates, so verify them before relying on it.

@@ -785,5 +785,279 @@
       "en": "Open 8 am to 8 pm",
       "ur": "صبح 8 سے رات 8 بجے تک کھلا"
     }
+  },
+  {
+    "id": "h4-d1",
+    "hospitalId": "h4",
+    "typeId": "emergency",
+    "name": {
+      "en": "Emergency",
+      "ur": "ایمرجنسی"
+    },
+    "floor": "G",
+    "wing": {
+      "en": "Block A",
+      "ur": "بلاک اے"
+    },
+    "directions": {
+      "en": [
+        "Enter from the main gate",
+        "Walk straight to the lifts",
+        "Turn left",
+        "Look for the Block A sign"
+      ],
+      "ur": [
+        "مرکزی گیٹ سے اندر آئیں",
+        "سیدھا لفٹ کی طرف جائیں",
+        "بائیں مڑیں",
+        "بلاک اے کا بورڈ دیکھیں"
+      ]
+    },
+    "phone": "+92-21-00000000",
+    "timings": {
+      "en": "Open 24 hours",
+      "ur": "24 گھنٹے کھلا"
+    }
+  },
+  {
+    "id": "h4-d2",
+    "hospitalId": "h4",
+    "typeId": "cardiology",
+    "name": {
+      "en": "Cardiology",
+      "ur": "امراضِ قلب"
+    },
+    "floor": "2",
+    "wing": {
+      "en": "Block B",
+      "ur": "بلاک بی"
+    },
+    "directions": {
+      "en": [
+        "Enter from the main gate",
+        "Walk straight to the lifts",
+        "Take the lift to floor 2",
+        "Turn left",
+        "Look for the Block B sign"
+      ],
+      "ur": [
+        "مرکزی گیٹ سے اندر آئیں",
+        "سیدھا لفٹ کی طرف جائیں",
+        "لفٹ سے منزل 2 پر جائیں",
+        "بائیں مڑیں",
+        "بلاک بی کا بورڈ دیکھیں"
+      ]
+    },
+    "phone": "+92-21-00000000",
+    "timings": {
+      "en": "Open 8 am to 8 pm",
+      "ur": "صبح 8 سے رات 8 بجے تک کھلا"
+    }
+  },
+  {
+    "id": "h4-d3",
+    "hospitalId": "h4",
+    "typeId": "pediatrics",
+    "name": {
+      "en": "Pediatrics",
+      "ur": "بچوں کا شعبہ"
+    },
+    "floor": "1",
+    "wing": {
+      "en": "Block A",
+      "ur": "بلاک اے"
+    },
+    "directions": {
+      "en": [
+        "Enter from the main gate",
+        "Walk straight to the lifts",
+        "Take the lift to floor 1",
+        "Turn right",
+        "Look for the Block A sign"
+      ],
+      "ur": [
+        "مرکزی گیٹ سے اندر آئیں",
+        "سیدھا لفٹ کی طرف جائیں",
+        "لفٹ سے منزل 1 پر جائیں",
+        "دائیں مڑیں",
+        "بلاک اے کا بورڈ دیکھیں"
+      ]
+    },
+    "phone": "+92-21-00000000",
+    "timings": {
+      "en": "Open 8 am to 8 pm",
+      "ur": "صبح 8 سے رات 8 بجے تک کھلا"
+    }
+  },
+  {
+    "id": "h4-d4",
+    "hospitalId": "h4",
+    "typeId": "gynecology",
+    "name": {
+      "en": "Gynecology and Maternity",
+      "ur": "زچہ و بچہ"
+    },
+    "floor": "1",
+    "wing": {
+      "en": "Block C",
+      "ur": "بلاک سی"
+    },
+    "directions": {
+      "en": [
+        "Enter from the main gate",
+        "Walk straight to the lifts",
+        "Take the lift to floor 1",
+        "Turn left",
+        "Look for the Block C sign"
+      ],
+      "ur": [
+        "مرکزی گیٹ سے اندر آئیں",
+        "سیدھا لفٹ کی طرف جائیں",
+        "لفٹ سے منزل 1 پر جائیں",
+        "بائیں مڑیں",
+        "بلاک سی کا بورڈ دیکھیں"
+      ]
+    },
+    "phone": "+92-21-00000000",
+    "timings": {
+      "en": "Open 8 am to 8 pm",
+      "ur": "صبح 8 سے رات 8 بجے تک کھلا"
+    }
+  },
+  {
+    "id": "h4-d5",
+    "hospitalId": "h4",
+    "typeId": "orthopedics",
+    "name": {
+      "en": "Orthopedics",
+      "ur": "ہڈیوں کا شعبہ"
+    },
+    "floor": "2",
+    "wing": {
+      "en": "Block A",
+      "ur": "بلاک اے"
+    },
+    "directions": {
+      "en": [
+        "Enter from the main gate",
+        "Walk straight to the lifts",
+        "Take the lift to floor 2",
+        "Turn right",
+        "Look for the Block A sign"
+      ],
+      "ur": [
+        "مرکزی گیٹ سے اندر آئیں",
+        "سیدھا لفٹ کی طرف جائیں",
+        "لفٹ سے منزل 2 پر جائیں",
+        "دائیں مڑیں",
+        "بلاک اے کا بورڈ دیکھیں"
+      ]
+    },
+    "phone": "+92-21-00000000",
+    "timings": {
+      "en": "Open 8 am to 8 pm",
+      "ur": "صبح 8 سے رات 8 بجے تک کھلا"
+    }
+  },
+  {
+    "id": "h4-d6",
+    "hospitalId": "h4",
+    "typeId": "general",
+    "name": {
+      "en": "General Medicine",
+      "ur": "جنرل میڈیسن"
+    },
+    "floor": "G",
+    "wing": {
+      "en": "Block B",
+      "ur": "بلاک بی"
+    },
+    "directions": {
+      "en": [
+        "Enter from the main gate",
+        "Walk straight to the lifts",
+        "Turn right",
+        "Look for the Block B sign"
+      ],
+      "ur": [
+        "مرکزی گیٹ سے اندر آئیں",
+        "سیدھا لفٹ کی طرف جائیں",
+        "دائیں مڑیں",
+        "بلاک بی کا بورڈ دیکھیں"
+      ]
+    },
+    "phone": "+92-21-00000000",
+    "timings": {
+      "en": "Open 8 am to 8 pm",
+      "ur": "صبح 8 سے رات 8 بجے تک کھلا"
+    }
+  },
+  {
+    "id": "h4-d7",
+    "hospitalId": "h4",
+    "typeId": "pharmacy",
+    "name": {
+      "en": "Pharmacy",
+      "ur": "دوا خانہ"
+    },
+    "floor": "G",
+    "wing": {
+      "en": "Block C",
+      "ur": "بلاک سی"
+    },
+    "directions": {
+      "en": [
+        "Enter from the main gate",
+        "Walk straight to the lifts",
+        "Turn left",
+        "Look for the Block C sign"
+      ],
+      "ur": [
+        "مرکزی گیٹ سے اندر آئیں",
+        "سیدھا لفٹ کی طرف جائیں",
+        "بائیں مڑیں",
+        "بلاک سی کا بورڈ دیکھیں"
+      ]
+    },
+    "phone": "+92-21-00000000",
+    "timings": {
+      "en": "Open 8 am to 8 pm",
+      "ur": "صبح 8 سے رات 8 بجے تک کھلا"
+    }
+  },
+  {
+    "id": "h4-d8",
+    "hospitalId": "h4",
+    "typeId": "laboratory",
+    "name": {
+      "en": "Laboratory",
+      "ur": "لیبارٹری"
+    },
+    "floor": "1",
+    "wing": {
+      "en": "Block B",
+      "ur": "بلاک بی"
+    },
+    "directions": {
+      "en": [
+        "Enter from the main gate",
+        "Walk straight to the lifts",
+        "Take the lift to floor 1",
+        "Turn right",
+        "Look for the Block B sign"
+      ],
+      "ur": [
+        "مرکزی گیٹ سے اندر آئیں",
+        "سیدھا لفٹ کی طرف جائیں",
+        "لفٹ سے منزل 1 پر جائیں",
+        "دائیں مڑیں",
+        "بلاک بی کا بورڈ دیکھیں"
+      ]
+    },
+    "phone": "+92-21-00000000",
+    "timings": {
+      "en": "Open 8 am to 8 pm",
+      "ur": "صبح 8 سے رات 8 بجے تک کھلا"
+    }
   }
 ]

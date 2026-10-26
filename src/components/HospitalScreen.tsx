@@ -33,7 +33,7 @@ export default function HospitalScreen({ lang, speech, t, onPick }: Props) {
       {msg && <p className="note">{msg}</p>}
       {hospitals.map((h) => (
         <button key={h.id} className="btn big card" onClick={() => onPick(h)}>
-          🏥 {h.name[lang]}
+          🏥 {h.name.en} · {h.name.ur}
           <small>{h.address[lang]}</small>
         </button>
       ))}
