@@ -34,7 +34,14 @@ export function speak(text: string, lang: string, onWord?: (index: number) => vo
     fallback = window.setTimeout(() => {
       if (Date.now() - lastEvent < 1800) { schedule(); return }
       const elapsed = Math.max(0, Date.now() - started - 250)
-      const estimated = Math.min(words.length - 1, Math.floor(elapsed / Math.max(260, 360 / utterance.rate)))
+      let estimated = 0
+      let elapsedForWord = elapsed
+      while (estimated < words.length - 1) {
+        const wordTime = Math.max(220, words[estimated].length * 72 / utterance.rate)
+        if (elapsedForWord < wordTime) break
+        elapsedForWord -= wordTime
+        estimated++
+      }
       onWord?.(estimated); schedule()
     }, 320)
   }
