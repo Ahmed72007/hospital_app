@@ -1,0 +1,47 @@
+[
+  {
+    "id": "h1",
+    "name": {
+      "en": "Sample City Public Hospital",
+      "ur": "سیمپل سٹی پبلک ہسپتال"
+    },
+    "address": {
+      "en": "1 Demo Road, Sample City",
+      "ur": "1 ڈیمو روڈ، سیمپل سٹی"
+    },
+    "lat": 24.8607,
+    "lng": 67.0011,
+    "phone": "021-0000-0100",
+    "emergencyPhone": "021-0000-0199"
+  },
+  {
+    "id": "h2",
+    "name": {
+      "en": "Sample District Hospital",
+      "ur": "سیمپل ڈسٹرکٹ ہسپتال"
+    },
+    "address": {
+      "en": "25 Example Street, Sample District",
+      "ur": "25 ایگزیمپل سٹریٹ، سیمپل ڈسٹرکٹ"
+    },
+    "lat": 24.9056,
+    "lng": 67.0822,
+    "phone": "021-0000-0200",
+    "emergencyPhone": "021-0000-0299"
+  },
+  {
+    "id": "h3",
+    "name": {
+      "en": "Sample Teaching Hospital",
+      "ur": "سیمپل ٹیچنگ ہسپتال"
+    },
+    "address": {
+      "en": "7 Test Avenue, Sample Town",
+      "ur": "7 ٹیسٹ ایوینیو، سیمپل ٹاؤن"
+    },
+    "lat": 24.92,
+    "lng": 67.13,
+    "phone": "021-0000-0300",
+    "emergencyPhone": "021-0000-0399"
+  }
+]

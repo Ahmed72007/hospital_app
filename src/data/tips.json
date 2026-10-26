@@ -1,0 +1,134 @@
+{
+  "emergency": {
+    "en": [
+      "Go straight to the Emergency desk",
+      "Tell the staff what happened",
+      "Keep the patient calm and still"
+    ],
+    "ur": [
+      "سیدھا ایمرجنسی ڈیسک پر جائیں",
+      "عملے کو بتائیں کیا ہوا ہے",
+      "مریض کو پرسکون رکھیں"
+    ]
+  },
+  "cardiology": {
+    "en": [
+      "Bring old reports and medicines",
+      "Avoid heavy food before the visit",
+      "Tell the doctor about any chest pain"
+    ],
+    "ur": [
+      "پرانی رپورٹیں اور دوائیں ساتھ لائیں",
+      "آنے سے پہلے بھاری کھانا نہ کھائیں",
+      "سینے کے درد کے بارے میں ڈاکٹر کو بتائیں"
+    ]
+  },
+  "pediatrics": {
+    "en": [
+      "Bring the child's vaccine card",
+      "Note when the fever or illness began",
+      "Carry water and a snack for the child"
+    ],
+    "ur": [
+      "بچے کا ٹیکوں کا کارڈ ساتھ لائیں",
+      "بخار یا بیماری کب شروع ہوئی، یاد رکھیں",
+      "بچے کے لیے پانی اور کھانے کی چیز ساتھ رکھیں"
+    ]
+  },
+  "gynecology": {
+    "en": [
+      "Bring all previous reports",
+      "Bring a family member with you",
+      "Note the date of the last period"
+    ],
+    "ur": [
+      "تمام پرانی رپورٹیں ساتھ لائیں",
+      "کسی گھر والے کو ساتھ لائیں",
+      "آخری ماہواری کی تاریخ یاد رکھیں"
+    ]
+  },
+  "orthopedics": {
+    "en": [
+      "Do not move the injured part",
+      "Bring any X-rays you have",
+      "Wear loose clothes"
+    ],
+    "ur": [
+      "زخمی حصے کو نہ ہلائیں",
+      "اگر ایکسرے ہوں تو ساتھ لائیں",
+      "ڈھیلے کپڑے پہنیں"
+    ]
+  },
+  "general": {
+    "en": [
+      "Drink plenty of water",
+      "Bring your old prescriptions",
+      "Tell the doctor how long you have been sick"
+    ],
+    "ur": [
+      "خوب پانی پئیں",
+      "پرانے نسخے ساتھ لائیں",
+      "ڈاکٹر کو بتائیں کتنے دن سے بیمار ہیں"
+    ]
+  },
+  "eye": {
+    "en": [
+      "Do not rub your eyes",
+      "Bring your glasses",
+      "Bring someone to help you go home"
+    ],
+    "ur": [
+      "آنکھیں نہ ملیں",
+      "اپنا چشمہ ساتھ لائیں",
+      "گھر واپسی کے لیے کسی کو ساتھ لائیں"
+    ]
+  },
+  "ent": {
+    "en": [
+      "Do not put anything in the ear",
+      "Tell the doctor about any ear fluid",
+      "Bring old reports"
+    ],
+    "ur": [
+      "کان میں کچھ نہ ڈالیں",
+      "کان سے پانی نکلے تو ڈاکٹر کو بتائیں",
+      "پرانی رپورٹیں ساتھ لائیں"
+    ]
+  },
+  "dental": {
+    "en": [
+      "Brush your teeth before the visit",
+      "Do not take painkillers without advice",
+      "Tell the dentist about any allergy"
+    ],
+    "ur": [
+      "آنے سے پہلے دانت صاف کریں",
+      "مشورے کے بغیر درد کی گولی نہ لیں",
+      "الرجی ہو تو ڈینٹسٹ کو بتائیں"
+    ]
+  },
+  "pharmacy": {
+    "en": [
+      "Keep the doctor's prescription ready",
+      "Check the medicine name before leaving",
+      "Ask how to take each medicine"
+    ],
+    "ur": [
+      "ڈاکٹر کا نسخہ تیار رکھیں",
+      "جانے سے پہلے دوا کا نام دیکھ لیں",
+      "پوچھیں کہ ہر دوا کیسے لینی ہے"
+    ]
+  },
+  "laboratory": {
+    "en": [
+      "Bring the doctor's test slip",
+      "Ask if you need to fast",
+      "Collect your report on the date given"
+    ],
+    "ur": [
+      "ڈاکٹر کی ٹیسٹ پرچی ساتھ لائیں",
+      "پوچھیں کہ خالی پیٹ آنا ہے یا نہیں",
+      "بتائی گئی تاریخ پر رپورٹ لے لیں"
+    ]
+  }
+}

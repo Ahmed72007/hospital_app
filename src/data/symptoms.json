@@ -1,0 +1,257 @@
+{
+  "critical": {
+    "en": [
+      "chest pain",
+      "heavy bleeding",
+      "bleeding a lot",
+      "difficulty breathing",
+      "cannot breathe",
+      "can't breathe",
+      "hard to breathe",
+      "unconscious",
+      "fainted",
+      "accident",
+      "seizure",
+      "heart attack",
+      "stroke",
+      "poison"
+    ],
+    "ur": [
+      "سینے میں درد",
+      "سینے کا درد",
+      "حادثہ",
+      "ایکسیڈنٹ",
+      "سانس",
+      "بے ہوش",
+      "بیہوش",
+      "خون بہ",
+      "خون نکل",
+      "زیادہ خون",
+      "خون آ رہا",
+      "دورہ",
+      "زہر",
+      "دل کا دورہ"
+    ]
+  },
+  "types": {
+    "emergency": {
+      "en": [
+        "emergency",
+        "ambulance",
+        "urgent"
+      ],
+      "ur": [
+        "ایمرجنسی",
+        "ایمبولینس"
+      ]
+    },
+    "cardiology": {
+      "en": [
+        "heart",
+        "palpitation",
+        "blood pressure",
+        "heartbeat"
+      ],
+      "ur": [
+        "دل",
+        "دھڑکن",
+        "بلڈ پریشر",
+        "ہارٹ"
+      ]
+    },
+    "pediatrics": {
+      "en": [
+        "child",
+        "children",
+        "kid",
+        "kids",
+        "baby",
+        "infant",
+        "toddler",
+        "newborn",
+        "my son",
+        "my daughter"
+      ],
+      "ur": [
+        "بچہ",
+        "بچے",
+        "بچی",
+        "بچوں",
+        "بیٹا",
+        "بیٹی",
+        "نومولود"
+      ]
+    },
+    "gynecology": {
+      "en": [
+        "pregnant",
+        "pregnancy",
+        "delivery",
+        "labor",
+        "period",
+        "menstrual",
+        "maternity"
+      ],
+      "ur": [
+        "حمل",
+        "حاملہ",
+        "زچگی",
+        "ڈلیوری",
+        "ماہواری"
+      ]
+    },
+    "orthopedics": {
+      "en": [
+        "broken bone",
+        "bone",
+        "fracture",
+        "back pain",
+        "knee",
+        "joint",
+        "leg pain",
+        "shoulder",
+        "sprain"
+      ],
+      "ur": [
+        "ہڈی",
+        "ہڈیاں",
+        "فریکچر",
+        "کمر درد",
+        "کمر میں درد",
+        "گھٹنا",
+        "گھٹنے",
+        "جوڑ",
+        "موچ",
+        "ٹانگ",
+        "کندھا"
+      ]
+    },
+    "general": {
+      "en": [
+        "fever",
+        "cold",
+        "cough",
+        "flu",
+        "headache",
+        "stomach",
+        "vomiting",
+        "diarrhea",
+        "weakness",
+        "tired",
+        "body pain",
+        "sugar",
+        "diabetes",
+        "infection"
+      ],
+      "ur": [
+        "بخار",
+        "نزلہ",
+        "زکام",
+        "کھانسی",
+        "سر درد",
+        "پیٹ",
+        "الٹی",
+        "دست",
+        "کمزوری",
+        "تھکن",
+        "جسم میں درد",
+        "شوگر",
+        "ذیابیطس",
+        "انفیکشن"
+      ]
+    },
+    "eye": {
+      "en": [
+        "eye",
+        "eyes",
+        "vision",
+        "blurry",
+        "cannot see",
+        "glasses"
+      ],
+      "ur": [
+        "آنکھ",
+        "آنکھوں",
+        "نظر",
+        "دھندلا",
+        "چشمہ"
+      ]
+    },
+    "ent": {
+      "en": [
+        "ear",
+        "ears",
+        "nose",
+        "throat",
+        "sinus",
+        "hearing",
+        "tonsil"
+      ],
+      "ur": [
+        "کان",
+        "ناک",
+        "گلا",
+        "گلے",
+        "سننے",
+        "سماعت",
+        "ٹانسل"
+      ]
+    },
+    "dental": {
+      "en": [
+        "tooth",
+        "teeth",
+        "dental",
+        "gum",
+        "gums",
+        "toothache",
+        "jaw"
+      ],
+      "ur": [
+        "دانت",
+        "دانتوں",
+        "مسوڑھ",
+        "مسوڑے",
+        "ڈینٹل",
+        "داڑھ"
+      ]
+    },
+    "pharmacy": {
+      "en": [
+        "medicine",
+        "medicines",
+        "pharmacy",
+        "prescription",
+        "tablets"
+      ],
+      "ur": [
+        "دوا",
+        "دوائی",
+        "دوائیاں",
+        "فارمیسی",
+        "نسخہ",
+        "گولیاں"
+      ]
+    },
+    "laboratory": {
+      "en": [
+        "blood test",
+        "test",
+        "lab",
+        "x-ray",
+        "xray",
+        "scan",
+        "ultrasound",
+        "report"
+      ],
+      "ur": [
+        "ٹیسٹ",
+        "لیب",
+        "ایکسرے",
+        "الٹراساؤنڈ",
+        "رپورٹ",
+        "خون کا ٹیسٹ"
+      ]
+    }
+  }
+}

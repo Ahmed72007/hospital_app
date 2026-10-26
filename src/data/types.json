@@ -1,0 +1,90 @@
+{
+  "emergency": {
+    "icon": "🚑",
+    "color": "#dc2626",
+    "name": {
+      "en": "Emergency",
+      "ur": "ایمرجنسی"
+    }
+  },
+  "cardiology": {
+    "icon": "❤️",
+    "color": "#e11d48",
+    "name": {
+      "en": "Cardiology",
+      "ur": "امراضِ قلب"
+    }
+  },
+  "pediatrics": {
+    "icon": "🧒",
+    "color": "#f59e0b",
+    "name": {
+      "en": "Pediatrics",
+      "ur": "بچوں کا شعبہ"
+    }
+  },
+  "gynecology": {
+    "icon": "🤰",
+    "color": "#db2777",
+    "name": {
+      "en": "Gynecology and Maternity",
+      "ur": "زچہ و بچہ"
+    }
+  },
+  "orthopedics": {
+    "icon": "🦴",
+    "color": "#7c3aed",
+    "name": {
+      "en": "Orthopedics",
+      "ur": "ہڈیوں کا شعبہ"
+    }
+  },
+  "general": {
+    "icon": "🩺",
+    "color": "#0f766e",
+    "name": {
+      "en": "General Medicine",
+      "ur": "جنرل میڈیسن"
+    }
+  },
+  "eye": {
+    "icon": "👁️",
+    "color": "#2563eb",
+    "name": {
+      "en": "Eye",
+      "ur": "آنکھوں کا شعبہ"
+    }
+  },
+  "ent": {
+    "icon": "👂",
+    "color": "#ea580c",
+    "name": {
+      "en": "ENT",
+      "ur": "ناک کان گلا"
+    }
+  },
+  "dental": {
+    "icon": "🦷",
+    "color": "#0891b2",
+    "name": {
+      "en": "Dental",
+      "ur": "دانتوں کا شعبہ"
+    }
+  },
+  "pharmacy": {
+    "icon": "💊",
+    "color": "#16a34a",
+    "name": {
+      "en": "Pharmacy",
+      "ur": "دوا خانہ"
+    }
+  },
+  "laboratory": {
+    "icon": "🧪",
+    "color": "#4f46e5",
+    "name": {
+      "en": "Laboratory",
+      "ur": "لیبارٹری"
+    }
+  }
+}
