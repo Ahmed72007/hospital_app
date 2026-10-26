@@ -37,6 +37,7 @@ export default function ResultScreen({ lang, speech, t, hospital, result, onDeta
   return (
     <main className="screen">
       {urgent && <div className="alert">{t('urgent')}</div>}
+      {result.typeId === 'emergency' && <a className="btn ghost" href="tel:1122">🚑 {t('rescue')}</a>}
       {result.typeId === 'emergency' && (
         <a className="btn danger big" href={`tel:${hospital.emergencyPhone}`}>
           📞 {t('callEmergency')}: <bdi dir="ltr">{hospital.emergencyPhone}</bdi>
